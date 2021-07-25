@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Document</title> -->
+    <style>
+        td {
+            white-space: nowrap;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td colspan="2" id="city" style="font-weight: bold;">Температура</td>
+            <!-- <td><span id="temp"></span> C</td> -->
+        </tr>
+        <tr>
+            <td>Температура</td>
+            <td><span id="temp"></span> C</td>
+        </tr>
+        <tr>
+            <td>Давление</td>
+            <td><span id="press"></span> hPa</td>
+        </tr>
+        <tr>
+            <td>Влажность</td>
+            <td><span id="hum"></span> 5</td>
+        </tr>
+    </table>
+
+    <script src="common.js"></script>
+    <script src="popup.js"></script>
+</body>
+
+</html>
+
+
+
+<!-- https://api.openweathermap.org/data/2.5/weather?q=Moscow&appid=e3affccc241ba7aab1e0a8d3825986ad&units=metric&lang=ru -->
